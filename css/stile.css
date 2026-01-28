@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.popup {
+    font-family:Tahoma, sans-serif;
+    width: 300px;
+    padding: 50px 100px 40px;
+    border-bottom: 1px solid #46A358;
+    background-color: #FFFFFF;
+}
+.exit {
+    padding-top: 20px;
+    align-items: end;
+}
+.login, .register {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.login {
+    color: #46A358;
+}
+.inLogin {
+    color: #3D3D3D;
+}
+.register {
+    color: #46A358;
+}
+.Enter {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+.data {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+.submit {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #46A358;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.orRegistr {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+    text-align: center;
+}
+.social {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+    cursor: pointer;
+}
