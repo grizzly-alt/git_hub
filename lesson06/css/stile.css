@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    border-bottom: 0.3px solid #46A35880;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.logo{
+    width: 150px;
+    height: 35px;
+    display: inline-block;;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav{
+    display: inline-block;
+    width: 351px;
+    margin: 0 230px;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navlist a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3D3D3D;
+    cursor: pointer;
+}
+.navlist a:hover {
+   font-weight: bold;
+   padding-bottom: 17px;
+   border-bottom: 3px solid #46A358;
+}
+.headerend {
+    position: fixed;
+    display: inline-block;
+    vertical-align: middle;
+}
+.glas{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.bascet{
+    width: 29px;
+    height: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.btnlogin{
+    margin-bottom: auto;
+    width: 102px;
+    height: 37px;
+    border: 1px solid #46A358;
+    border-radius: 5px;
+    background-image: url(../img/Logout.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: #46A358;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    vertical-align: top;
+}
+.section {
+    margin-top: 25px;
+    font-size: 0;
+    background-color: #F5F5F580;
+}
+.sectioncontent {
+    width: 713px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+}
+.sectioncontent h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 10%;
+    color: #3D3D3D;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+.section h1 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color:#3D3D3D; 
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    padding-left: 25px; 
+}
+.section span {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color:#46A358; 
+    text-transform: uppercase;
+}
+.section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#727272; 
+    padding-bottom: 10px; 
+    padding-left: 25px;
+}
+.btnshopnow {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #46A358;
+    border-radius: 6px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.sectionfoto{
+    width: 487px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+   /* background-image: url(../img/sectionfoto.png);
+    background-size: cover;
+    background-position: center;*/
+}
