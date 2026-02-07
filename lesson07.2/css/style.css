@@ -146,9 +146,10 @@
     font-size: 0;
     background-color: #F5F5F580;
     padding-bottom: 25px;
+    margin: 0 -40px;
 }
 .sectioncontent {
-    width: 713px;
+    width: 60%;
     display: inline-block;
     vertical-align: top;
     padding-top: 50px;
@@ -198,13 +199,10 @@
     padding: 10px 25px;
 }
 .sectionfoto{
-    width: 487px;
+    width: 40%;
     height: 400px;
     display: inline-block;
     vertical-align: top;
-   /* background-image: url(../img/sectionfoto.png);
-    background-size: cover;
-    background-position: center;*/
 }
 .catalog{
     margin: 25px -10px;
@@ -321,4 +319,5 @@
 .open a {
     background-color: #46A358;
     color: #FFFFFF;
+
 }
