@@ -316,7 +316,7 @@
     padding: 0 10px;
     margin-bottom: 45px;
     position: relative;
-    border-top: transparent 1px solid;
+    
 }
 .ikons {
     position: absolute;
@@ -371,6 +371,7 @@
     text-align: center;
     padding-top: 30px;
     margin-top: 25px;
+    border-top: transparent 1px solid;
    /* padding-left: 21px;*/
 }
 .catalog-item-img {
@@ -868,4 +869,5 @@
     color: #3D3D3D;
     cursor: pointer;
 }
+
 
