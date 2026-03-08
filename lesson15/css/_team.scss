@@ -1,0 +1,23 @@
+.team {
+  padding: 60px 0;
+
+  &__container {
+    background: #F5F5FA;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    @media (min-width: 992px) { flex-direction: row; }
+  }
+
+  &__image { flex: 0 0 100%; @media (min-width: 992px) { flex: 0 0 400px; } }
+
+  &__content { padding: 30px; color: #323264; }
+
+  &__quote {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F0145A;
+    margin-bottom: 20px;
+  }
+}

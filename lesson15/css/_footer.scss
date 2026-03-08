@@ -1,0 +1,24 @@
+.footer {
+  background: #F5F5FA;
+  padding: 30px 0;
+  border-top: 2px solid #E6E6F0;
+  color: #46466E;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 768px) { flex-direction: row; justify-content: space-between; }
+  }
+
+  &__address { font-style: normal; margin-bottom: 10px; color: #323264; }
+
+  &__phone {
+    font-weight: 700;
+    margin: 0 15px;
+    color: #46466E;
+    &:hover { color: #F0145A; }
+  }
+
+  &__copy { color: #B3B3BA; font-size: 14px; }
+}

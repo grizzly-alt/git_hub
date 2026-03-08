@@ -1,0 +1,31 @@
+.publications {
+  padding: 60px 0;
+  background: #F5F5FA;
+
+  &__grid { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+}
+
+.post-card {
+  flex: 0 0 100%;
+  padding: 15px;
+  @media (min-width: 768px) { flex: 0 0 50%; }
+  @media (min-width: 992px) { flex: 0 0 33.333%; }
+
+  &__body {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  &__title { font-weight: 700; margin-bottom: 10px; }
+
+  &__date {
+    color: #B3B3BA;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #E6E6F0;
+  }
+}
